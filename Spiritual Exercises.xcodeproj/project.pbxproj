@@ -50,7 +50,6 @@
 		30AEDF1C218283D900EA7A63 /* BaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF1B218283D900EA7A63 /* BaseTabBarVC.swift */; };
 		30AEDF1F2182851800EA7A63 /* MoreInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF1D2182851800EA7A63 /* MoreInformationVC.swift */; };
 		30AEDF202182851800EA7A63 /* MoreInformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AEDF1E2182851800EA7A63 /* MoreInformationVC.xib */; };
-		30AEDF23218376B600EA7A63 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF22218376B600EA7A63 /* SideMenuItem.swift */; };
 		30AEDF272183853A00EA7A63 /* DetailInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF252183853A00EA7A63 /* DetailInformationVC.swift */; };
 		30AEDF282183853A00EA7A63 /* DetailInformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AEDF262183853A00EA7A63 /* DetailInformationVC.xib */; };
 		30AEDF2E218388F800EA7A63 /* metodo.html in Resources */ = {isa = PBXBuildFile; fileRef = 30AEDF2A218388F700EA7A63 /* metodo.html */; };
@@ -682,7 +681,6 @@
 				303965FE2159231800CE6663 /* WelcomeItemCell.swift in Sources */,
 				30AEDF272183853A00EA7A63 /* DetailInformationVC.swift in Sources */,
 				30AEDF1C218283D900EA7A63 /* BaseTabBarVC.swift in Sources */,
-				30AEDF23218376B600EA7A63 /* SideMenuItem.swift in Sources */,
 				3009F0A82187A5BE001995B6 /* ExcerciseItemCell.swift in Sources */,
 				3030AA322154603E0022E52B /* User.swift in Sources */,
 				3030AA2F21545F9C0022E52B /* Constants.swift in Sources */,
@@ -880,7 +878,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W99UU5FX99;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Spiritual Exercises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -901,7 +899,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W99UU5FX99;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Spiritual Exercises/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
