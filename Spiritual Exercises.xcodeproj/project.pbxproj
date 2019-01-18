@@ -39,6 +39,7 @@
 		304444E321527CC800896FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304444E121527CC800896FCE /* LaunchScreen.storyboard */; };
 		304444EE21527CC800896FCE /* Spiritual_ExercisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304444ED21527CC800896FCE /* Spiritual_ExercisesTests.swift */; };
 		304444F921527CC800896FCE /* Spiritual_ExercisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304444F821527CC800896FCE /* Spiritual_ExercisesUITests.swift */; };
+		30902E6E21F17AA500054077 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30902E6D21F17AA500054077 /* SideMenuItem.swift */; };
 		30AEDF0C21822E9900EA7A63 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF0A21822E9900EA7A63 /* HomeVC.swift */; };
 		30AEDF0D21822E9900EA7A63 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AEDF0B21822E9900EA7A63 /* HomeVC.xib */; };
 		30AEDF1021822ED200EA7A63 /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AEDF0E21822ED200EA7A63 /* SideMenuVC.swift */; };
@@ -119,6 +120,7 @@
 		304444F421527CC800896FCE /* Spiritual ExercisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spiritual ExercisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		304444F821527CC800896FCE /* Spiritual_ExercisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiritual_ExercisesUITests.swift; sourceTree = "<group>"; };
 		304444FA21527CC800896FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30902E6D21F17AA500054077 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
 		30AEDF0A21822E9900EA7A63 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		30AEDF0B21822E9900EA7A63 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		30AEDF0E21822ED200EA7A63 /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 				3009F0A52187A5A6001995B6 /* cell */,
 				30AEDF0A21822E9900EA7A63 /* HomeVC.swift */,
 				30AEDF0B21822E9900EA7A63 /* HomeVC.xib */,
+				30902E6D21F17AA500054077 /* SideMenuItem.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -697,6 +700,7 @@
 				30AEDF0C21822E9900EA7A63 /* HomeVC.swift in Sources */,
 				30AEDF1421825E5000EA7A63 /* BaseVC.swift in Sources */,
 				303966092159933800CE6663 /* LoginVC.swift in Sources */,
+				30902E6E21F17AA500054077 /* SideMenuItem.swift in Sources */,
 				3009F0A02187999F001995B6 /* GetExercisesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
