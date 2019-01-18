@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="142" id="KGk-i7-Jjw" customClass="ExcerciseItemCell" customModule="Spiritual_Exercises" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="141.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 dias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjB-bC-o9g">
+                        <rect key="frame" x="16" y="11" width="56.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mYj-DF-8jp">
+                        <rect key="frame" x="203" y="0.0" width="117" height="142"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="142" id="fpX-3O-cwP"/>
+                            <constraint firstAttribute="width" constant="117" id="l0v-cb-Bsf"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(en la vida cotidiana)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBh-kN-BU7">
+                        <rect key="frame" x="16" y="35" width="135" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lir-EX-f3v">
+                        <rect key="frame" x="56" y="114" width="73" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERJ-67-sm5">
+                        <rect key="frame" x="0.0" y="108" width="203" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="para realizar con las actividades del dia a dia " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWz-K9-cxQ">
+                        <rect key="frame" x="16" y="60" width="179" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="efY-Dy-2gp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WWz-K9-cxQ" firstAttribute="top" secondItem="KBh-kN-BU7" secondAttribute="bottom" constant="8" id="057-rK-g5J"/>
+                    <constraint firstItem="ERJ-67-sm5" firstAttribute="top" secondItem="WWz-K9-cxQ" secondAttribute="bottom" constant="11" id="0d6-ud-AF8"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="KBh-kN-BU7" secondAttribute="trailing" constant="52" id="1tV-5o-zsi"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2hp-lL-LjP"/>
+                    <constraint firstItem="KBh-kN-BU7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="8AC-8O-C1M"/>
+                    <constraint firstItem="lir-EX-f3v" firstAttribute="top" secondItem="ERJ-67-sm5" secondAttribute="bottom" constant="5" id="DUI-21-re4"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="SjB-bC-o9g" secondAttribute="trailing" constant="130.5" id="DeX-YO-0XP"/>
+                    <constraint firstItem="ERJ-67-sm5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Eec-Lz-Yik"/>
+                    <constraint firstItem="lir-EX-f3v" firstAttribute="top" secondItem="ERJ-67-sm5" secondAttribute="bottom" constant="5" id="OJk-7W-xmb"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="lir-EX-f3v" secondAttribute="trailing" constant="74" id="Uyx-gm-81z"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="ERJ-67-sm5" secondAttribute="trailing" id="WLl-2c-H1H"/>
+                    <constraint firstAttribute="bottom" secondItem="ERJ-67-sm5" secondAttribute="bottom" constant="32.5" id="WXV-eD-8zt"/>
+                    <constraint firstAttribute="bottom" secondItem="lir-EX-f3v" secondAttribute="bottom" constant="6.5" id="Y9G-p7-OuR"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="203" id="Y9x-eL-fYx"/>
+                    <constraint firstAttribute="trailing" secondItem="mYj-DF-8jp" secondAttribute="trailing" id="ZBh-6d-0m1"/>
+                    <constraint firstAttribute="bottom" secondItem="mYj-DF-8jp" secondAttribute="bottom" constant="-0.5" id="dFS-gW-Eis"/>
+                    <constraint firstItem="WWz-K9-cxQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="eft-6y-jan"/>
+                    <constraint firstItem="SjB-bC-o9g" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="ghq-Id-Yod"/>
+                    <constraint firstItem="SjB-bC-o9g" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iwG-IP-8OP"/>
+                    <constraint firstItem="mYj-DF-8jp" firstAttribute="leading" secondItem="WWz-K9-cxQ" secondAttribute="trailing" constant="8" id="upB-eT-QCB"/>
+                    <constraint firstItem="KBh-kN-BU7" firstAttribute="top" secondItem="SjB-bC-o9g" secondAttribute="bottom" constant="3" id="vmd-Mr-3In"/>
+                    <constraint firstItem="lir-EX-f3v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="56" id="yqE-te-hdK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.59999999999999" y="198.80059970014995"/>
+        </tableViewCell>
+    </objects>
+</document>
