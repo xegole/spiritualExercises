@@ -1,0 +1,6 @@
+framework module Pods_Spiritual_ExercisesTests {
+  umbrella header "Pods-Spiritual ExercisesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
